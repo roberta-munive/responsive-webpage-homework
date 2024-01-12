@@ -6,7 +6,6 @@
 
 body {
   margin: 60px auto;
-
 }
 
 h1,
@@ -124,4 +123,32 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* .app-description{
+    margin: 10px 0 auto;
+  } */
+  .app-subheader {
+    text-align: center;
+  }
+
+  .format-launch-link {
+    display: flex;
+    justify-content: center;
+  }
 }
